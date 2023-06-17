@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Infraestructura Tecnológica</title>
+</head>
+
+<body>
+  <div id="root"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/react@17.0.2/umd/react.development.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/react-dom@17.0.2/umd/react-dom.development.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@babel/standalone@7.14.3/babel.min.js"></script>
+
+  <script type="text/babel">
+    function Infrastructure() {
+      return (
+        <div>
+          <h1>Infraestructura Tecnológica</h1>
+          <ul>
+            <li>Rector</li>
+            <li>Infraestructura</li>
+            <li>Servicio tecnico</li>
+            <li>Docente</li>
+          </ul>
+        </div>
+      );
+    }
+
+    ReactDOM.render(<Infrastructure />, document.getElementById('root'));
+  </script>
+</body>
+
+</html>
